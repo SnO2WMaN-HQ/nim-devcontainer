@@ -5,6 +5,7 @@
     "workspaceFolder": "/workspace",
     "shutdownAction": "stopCompose",
     "extensions": [
+        "EditorConfig.EditorConfig",
         "nimsaem.nimvscode"
     ],
 }
