@@ -6,6 +6,7 @@
     "shutdownAction": "stopCompose",
     "extensions": [
         "EditorConfig.EditorConfig",
-        "nimsaem.nimvscode"
+        "nimsaem.nimvscode",
+        "vadimcn.vscode-lldb"
     ],
 }

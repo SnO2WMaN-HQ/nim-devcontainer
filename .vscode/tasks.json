@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "nim:build_current:debug",
+      "command": "nim",
+      "args": [
+        "compile",
+        "-g",
+        "--debugger:native",
+        "-o:${workspaceRoot}/bin/${fileBasenameNoExtension}",
+        "${relativeFile}"
+      ],
+      "options": {
+        "cwd": "${workspaceRoot}"
+      },
+      "type": "shell",
+    }
+  ]
+}
