@@ -1,0 +1,10 @@
+{
+    "name": "Nim",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "nim",
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "nimsaem.nimvscode"
+    ],
+}
